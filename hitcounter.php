@@ -10,8 +10,8 @@ class hitcounter {
 	private $id = 0; // id счетчик
 	private $ctime = 86400; // пересчитывать раз в сутки
 	private $fcache = '';
-	private $find = '';
-	private $date = '';
+	private $find = ''; // что ищем
+	private $date = ''; // с какого времени считать
 	
 	function __construct($id){
 		$this->id = $id; // id счетчика

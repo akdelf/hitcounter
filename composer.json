@@ -1,0 +1,9 @@
+{
+    "name": "akdelf/hitcounter",
+    "description": "php parser counter mail.ru",
+    "homepage": "https://github.com/akdelf/hitcounter",
+    "keywords": ["mail.ru, parser"],
+    "autoload": {
+        "files": ["hitcounter.php"]
+    }
+}
