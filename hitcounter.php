@@ -51,6 +51,9 @@ class hitcounter {
 
 	function total() {
 
+		if ($this->date == date('Y-m-d'))
+			return 0; // по сегодняшнему дню результатов пока нет
+		
 		if ($total = $this->total_cache())
 			return $total;
 
